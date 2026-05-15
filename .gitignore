@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.iml
+
+# Database / Local Secrets
+*.db
+*.log
+local_settings.py
+
+# Pytest
+.pytest_cache/
+.pytest_results/
+
+# 3D Visualizer Cache
+.vtk_cache/
